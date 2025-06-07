@@ -22,7 +22,7 @@ install(TARGETS linuxsoftpwm
         RUNTIME DESTINATION bin
         INCLUDES DESTINATION include)
 
-install(FILES linuxsoftpwm.h
+install(FILES src/linuxsoftpwm.h
         DESTINATION include)
 
 # Export targets for downstream use
